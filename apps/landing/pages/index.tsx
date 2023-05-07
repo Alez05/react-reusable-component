@@ -1,7 +1,11 @@
+import { Aspect } from '@myorg/atom';
+
 const LandingPage = () => {
   return (
     <div>
-      <h1>Welcome to landing!</h1>
+      <Aspect>
+        <h1>Welcome to landing!</h1>
+      </Aspect>
     </div>
   );
 };
