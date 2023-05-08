@@ -1,4 +1,4 @@
-import { Aspect } from '@myorg/atom';
+import { Aspect, Global } from '@myorg/atom';
 
 const LandingPage = () => {
   return (
