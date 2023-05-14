@@ -1,4 +1,4 @@
-import { Aspect, Global } from '@myorg/atom';
+import { Aspect, Global, Icon } from '@myorg/atom';
 
 const LandingPage = () => {
   return (
@@ -6,6 +6,7 @@ const LandingPage = () => {
       <Aspect>
         <h1>Welcome to landing!</h1>
       </Aspect>
+      <Icon icon="address-book" />
     </div>
   );
 };
