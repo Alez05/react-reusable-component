@@ -18,3 +18,16 @@ export const SReset = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
   }
 `;
+
+export const SFont = createGlobalStyle`
+  @font-face {
+  font-family: 'reusable-component';
+  src:
+    url('/font/re.ttf?y8mtbw') format('truetype'),
+    url('/font/re.woff?y8mtbw') format('woff'),
+    url('/font/re.svg?y8mtbw##') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+`;
