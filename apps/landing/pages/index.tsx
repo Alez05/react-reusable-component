@@ -1,15 +1,18 @@
-import { Aspect, Global, Icon } from '@myorg/atom';
+import { Aspect, Global, Icon } from '@myorg/atom'
 
 const LandingPage = () => {
   return (
     <div>
       <Aspect>
         <h1>Welcome to landing!</h1>
+
+        <Icon icon="smile" size="md" />
+        <Icon icon="earth" size="lg" />
+        <Icon icon="bug" size="xl" />
+        <Icon icon="pacman" size="xxl" />
+        <Icon icon="briefcase" size="xxxl" />
       </Aspect>
-      <div>
-        <Icon icon="address-book" />
-      </div>
     </div>
-  );
-};
-export default LandingPage;
+  )
+}
+export default LandingPage

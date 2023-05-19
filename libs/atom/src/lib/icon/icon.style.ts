@@ -1,13 +1,20 @@
-import styled from 'styled-components';
-import { $TIcon } from './icon.type';
-import { iconMap } from '@myorg/type';
+import styled from 'styled-components'
+import { $TIcon } from './icon.type'
+import { iconMap, iconSizeMap } from '@myorg/type'
 
-export const getSymbol = ({ $icon }: $TIcon) => `content: '${iconMap[$icon]}'`;
+export const getSymbol = ({ $icon }: $TIcon) => `content: '${iconMap[$icon]}'`
+
+export const getIconSize = ({ $size = 'md' }: $TIcon) =>
+  `width: ${iconSizeMap[$size] / 16}rem; height: ${iconSizeMap[$size] / 16}rem;
+  font-size: ${iconSizeMap[$size] / 32}rem;
+  `
 
 export const SIcon = styled.span<$TIcon>`
-  display: inline-block;
-  width: 1rem;
-  height: 1rem;
+  ${getIconSize}
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
   font-family: 'reusable-component' !important;
   font-style: normal;
   font-weight: normal;
@@ -21,4 +28,4 @@ export const SIcon = styled.span<$TIcon>`
   &:before {
     ${getSymbol}
   }
-`;
+`

@@ -1,5 +1,5 @@
 //Map and List
-export { iconMap } from './lib/icon';
+export { iconMap, iconSizeMap } from './lib/icon'
 
 //type
-export { TIconType } from './lib/icon';
+export { TIconType, TIconSizeType } from './lib/icon'
