@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { $TIcon } from './icon.type';
 import { iconMap } from '@myorg/type';
 
-export const getSymbol = ({ $icon }: $TIcon) => `content: ${iconMap[$icon]}`;
+export const getSymbol = ({ $icon }: $TIcon) => `content: '${iconMap[$icon]}'`;
 
 export const SIcon = styled.span<$TIcon>`
   display: inline-block;
