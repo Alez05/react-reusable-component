@@ -1,7 +1,7 @@
 //aspect.style.ts
 
 import styled from 'styled-components';
-import { $TAspect, TAspect } from './aspect.type';
+import { $TAspect } from './aspect.type';
 
 export const SAspect = styled.div<$TAspect>`
   aspect-ratio: 16/9;

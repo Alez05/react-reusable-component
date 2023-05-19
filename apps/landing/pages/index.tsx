@@ -6,7 +6,9 @@ const LandingPage = () => {
       <Aspect>
         <h1>Welcome to landing!</h1>
       </Aspect>
-      <Icon icon="address-book" />
+      <div>
+        <Icon icon="address-book" />
+      </div>
     </div>
   );
 };
