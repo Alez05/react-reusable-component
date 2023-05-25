@@ -37,18 +37,21 @@ export const textSizeMap = {
   },
 } as const
 
-export const fontWeightList = {
-  none: 0,
-  thin: 100,
-  extraLight: 200,
-  light: 300,
-  normal: 400,
-  medium: 500,
-  semiBold: 600,
-  bold: 700,
-  extraBold: 800,
-  black: 900,
-} as const
+export const fontWeightList = [
+  'normal',
+  'bold',
+  'lighter',
+  'bolder',
+  '100',
+  '200',
+  '300',
+  '400',
+  '500',
+  '600',
+  '700',
+  '800',
+  '900',
+] as const
 
-export type TFontWeightType = keyof typeof fontWeightList
+export type TFontWeightType = (typeof fontWeightList)[number]
 export type TTextSizeType = keyof typeof textSizeMap.text
