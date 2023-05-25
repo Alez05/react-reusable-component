@@ -1,7 +1,7 @@
 import { SText } from './text.style'
 import { TText } from './text.type'
 
-export const Text = ({
+const Text = ({
   children,
   crossed,
   ellipsis,
@@ -27,3 +27,5 @@ export const Text = ({
     </SText>
   )
 }
+
+export { Text }

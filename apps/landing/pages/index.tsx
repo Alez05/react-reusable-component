@@ -25,10 +25,20 @@ const LandingPage = () => {
           Button4
         </Button>
         <Button size="massive">Button5 no radius</Button>
-        <Text size="md" weight="extraLight" color="danger">
+        {/* just to see if it s right */}
+        <Text size="xs" weight="lighter" color="danger" title="esti gay">
           ceva frumos
         </Text>
-        <Text size="colossal" weight="black" color="info">
+        <Text size="sm" weight="100" color="active" as="h1">
+          ceva frumos
+        </Text>
+        <Text size="md" weight="300" color="darkBorder" as="h2">
+          ceva frumos
+        </Text>
+        <Text size="lg" weight="600" color="hover" as="h3">
+          ceva frumos
+        </Text>
+        <Text size="xl" weight="bold" color="lightGray" as="h4">
           ceva frumos
         </Text>
       </Aspect>

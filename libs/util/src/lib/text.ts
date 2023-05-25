@@ -15,26 +15,25 @@ export const getFontSize = ({
   $size = 'md',
   as = 'p',
 }: {
-  $size?: TTextSizeType
   as?: TTextAsType
+  $size?: TTextSizeType
 }) => {
   const isTitle = as[0] === 'h'
   return $size
     ? `font-size: ${
         (isTitle ? textSizeMap.title[$size] : textSizeMap.text[$size]) / 16
-      } rem;`
+      }rem;`
     : ''
 }
 
 export const getCrossed = ({ $crossed }: { $crossed?: crossed }) =>
   $crossed ? `text-decoration: line-through;` : ''
 
-export const getEllipsis = ({ $ellipsis }: { $ellipsis?: ellipsis }) => {
-  return $ellipsis
+export const getEllipsis = ({ $ellipsis }: { $ellipsis?: ellipsis }) =>
+  $ellipsis
     ? `
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  `
+      white-space: nowrap;
+      overflow-y: hidden;
+      text-overflow: ellipsis;
+    `
     : ''
-}
