@@ -1,1 +1,3 @@
-// Use this file to export React client components (e.g. those with 'use client' directive) or other non-server utilities
+export { getBaseColor, getColor, getBackgroundColor } from './lib/color'
+export { getAlign, getJustify } from './lib/direction'
+export { getCrossed, getEllipsis, getFontSize, getFontWeight } from './lib/text'
