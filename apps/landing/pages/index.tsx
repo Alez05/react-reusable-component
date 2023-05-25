@@ -1,4 +1,4 @@
-import { Aspect, Button, Global, Icon } from '@myorg/atom'
+import { Aspect, Button, Global, Icon, Text } from '@myorg/atom'
 
 const LandingPage = () => {
   return (
@@ -25,6 +25,12 @@ const LandingPage = () => {
           Button4
         </Button>
         <Button size="massive">Button5 no radius</Button>
+        <Text size="md" weight="extraLight" color="danger">
+          ceva frumos
+        </Text>
+        <Text size="colossal" weight="black" color="info">
+          ceva frumos
+        </Text>
       </Aspect>
     </div>
   )

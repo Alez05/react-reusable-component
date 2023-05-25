@@ -1,4 +1,6 @@
 export const widthList = [
+  'auto',
+  '50%',
   '100%',
   'fit-content',
   'min-content',
