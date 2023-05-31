@@ -28,7 +28,7 @@ const Input = ({
       $padding={padding}
       onClick={click}
       {...field}
-    ></SInput>
+    />
   )
 }
 
