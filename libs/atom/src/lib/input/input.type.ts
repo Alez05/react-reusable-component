@@ -1,4 +1,4 @@
-import { TColorType, TSizeType, TTextAsType, TTextSizeType } from '@myorg/type'
+import { TColorType, TSizeType, TTextAsType } from '@myorg/type'
 import { FormikProps } from 'formik'
 
 type label = string
@@ -15,7 +15,7 @@ export type TInput = {
   type?: type
   color?: TColorType
   as?: TTextAsType
-  size?: TTextSizeType
+  size?: TSizeType
   padding?: TSizeType
   name?: string
   field?: {

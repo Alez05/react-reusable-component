@@ -4,7 +4,7 @@ export const gapMap = {
   xs: 2, //extra small
   sm: 4, //small
   md: 4, //medium
-  l: 4, //large
+  lg: 4, //large
   xl: 8, //extra large
   xxl: 12, //extra extra large
   xxxl: 12, //extra extra extra large

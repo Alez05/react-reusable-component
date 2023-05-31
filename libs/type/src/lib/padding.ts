@@ -11,7 +11,6 @@ export const paddingSizeMap = {
   giant: 56, // giant
   massive: 64, // massive
   colossal: 80, // colossal
-  gigantic: 96, // gigantic
   immense: 112, // immense
   mammoth: 128, // mammoth
 } as const
