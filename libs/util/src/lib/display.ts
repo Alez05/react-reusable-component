@@ -1,4 +1,11 @@
-import { TCursorType, TGapType, TInset, TSizeType, sizeMap } from '@myorg/type'
+import {
+  TBoxPositionType,
+  TCursorType,
+  TGapType,
+  TInset,
+  TSizeType,
+  sizeMap,
+} from '@myorg/type'
 
 type vertical = boolean
 type hidden = boolean
@@ -67,8 +74,8 @@ export const getHidden = ({ $hidden }: { $hidden?: hidden }) =>
   `
     : ''
 
-// export const getPosition = ({ $position }: { $position?: TBoxPositionType }) =>
-//   $position ? `position: ${$position};` : ''
+export const getPosition = ({ $position }: { $position?: TBoxPositionType }) =>
+  $position ? `position: ${$position};` : ''
 
 export const getInset = ({ $inset }: { $inset?: TInset[] }) =>
   $inset

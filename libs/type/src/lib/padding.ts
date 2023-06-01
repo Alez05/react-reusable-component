@@ -1,18 +1,17 @@
 export const paddingSizeMap = {
-  none: 0,
-  xxs: 4,
-  xs: 8,
-  sm: 12,
-  md: 16,
-  lg: 24, // large
-  xl: 32, // xlarge
-  xxl: 40, // xxlarge
-  huge: 48, // huge
-  giant: 56, // giant
-  massive: 64, // massive
-  colossal: 80, // colossal
-  immense: 112, // immense
-  mammoth: 128, // mammoth
+  none: 0, // No padding
+  xxs: 4, // Extra extra small
+  xs: 8, // Extra small
+  s: 12, // Small
+  m: 16, // Medium
+  l: 20, // Large
+  xl: 24, // Extra Large
+  xxl: 32, // Double Extra Large
+  xxxl: 40, // Triple Extra Large
+  huge: 60, // Huge
+  giant: 72, // Giant
+  massive: 96, // Massive
+  colossal: 128, // Colossal
 } as const
 
 export type TPaddingType = keyof typeof paddingSizeMap

@@ -15,8 +15,10 @@ export {
   getWrap,
   getHidden,
   getInset,
-  // getPosition,
+  getPosition,
   getBackgroundIamge,
+  getPointer,
 } from './lib/display'
 export { getPadding } from './lib/spacing'
 export { getCrossed, getEllipsis, getFontSize, getFontWeight } from './lib/text'
+export { getHeight, getWH, getWidth } from './lib/width-height'
