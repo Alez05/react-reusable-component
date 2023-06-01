@@ -1,20 +1,18 @@
 import { SInput } from './input.style'
 import { TInput } from './input.type'
 
-const Input = ({
-  padding,
+export const Input = ({
+  describedBy,
+  label,
   size,
-  as,
-  click,
-  color,
-  describedby,
   field,
   form,
-  label,
-  name,
-  placeholder,
   required,
+  placeholder,
   type,
+  color,
+  padding,
+  click,
 }: TInput) => {
   return (
     <SInput
@@ -22,7 +20,7 @@ const Input = ({
       placeholder={placeholder}
       type={type}
       aria-labelledby={label}
-      aria-describedby={describedby}
+      aria-describedby={describedBy}
       $size={size}
       $color={color}
       $padding={padding}
@@ -31,5 +29,3 @@ const Input = ({
     />
   )
 }
-
-export { Input }

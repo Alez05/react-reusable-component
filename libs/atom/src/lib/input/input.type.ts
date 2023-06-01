@@ -1,5 +1,6 @@
 import { TColorType, TSizeType, TTextAsType } from '@myorg/type'
 import { FormikProps } from 'formik'
+import { ReactNode } from 'react'
 
 type label = string
 type placeholder = string
@@ -8,9 +9,10 @@ type required = boolean
 type type = string
 
 export type TInput = {
+  children?: ReactNode
   label?: label
   placeholder?: placeholder
-  describedby?: describedby
+  describedBy?: describedby
   required?: required
   type?: type
   color?: TColorType
