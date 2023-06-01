@@ -6,18 +6,18 @@ import { gapMap, paddingSizeMap, sizeMap } from '@myorg/type'
 export const getGap = ({ $gap }: $TButton) =>
   $gap ? `gap: ${gapMap[$gap] / 16}rem` : ''
 
-export const getHeight = ({ $size = 'md' }: $TButton) =>
+export const getHeight = ({ $size = 'm' }: $TButton) =>
   `height: ${sizeMap[$size] / 16}rem;`
 
-export const getFontSize = ({ $size = 'md' }: $TButton) =>
+export const getFontSize = ({ $size = 'm' }: $TButton) =>
   `font-size: ${sizeMap[$size] / 24}rem;`
 
-export const getBorderRadius = ({ $size = 'md', $radius }: $TButton) =>
+export const getBorderRadius = ({ $size = 'm', $radius }: $TButton) =>
   !$radius || $radius === 'none'
     ? ''
     : `border-radius: ${sizeMap[$size] / ($radius === 'pill' ? 32 : 64)}rem;`
 
-export const getPadding = ({ $padding = 'md' }: $TButton) =>
+export const getPadding = ({ $padding = 'm' }: $TButton) =>
   `padding: 0 ${paddingSizeMap[$padding] / 16}rem;`
 
 export const getWidth = ({ $width = 'min-content' }: $TButton) =>

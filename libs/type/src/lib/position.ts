@@ -1,4 +1,4 @@
-export const positionList = [
+export const BoxPositionList = [
   'static',
   'relative',
   'absolute',
@@ -6,5 +6,5 @@ export const positionList = [
   'fixed',
 ] as const
 
-export type TPositionType = (typeof positionList)[number]
+export type TBoxPositionType = (typeof BoxPositionList)[number]
 export type TInset = number | 'auto'

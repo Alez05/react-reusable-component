@@ -1,17 +1,17 @@
 export const gapMap = {
-  none: 0, //no gap
-  xxs: 2, //extra extra small
-  xs: 2, //extra small
-  sm: 4, //small
-  md: 4, //medium
-  lg: 4, //large
-  xl: 8, //extra large
-  xxl: 12, //extra extra large
-  xxxl: 12, //extra extra extra large
-  huge: 12, //huge
-  giant: 16, //giant
-  massive: 16, //massive
-  colossal: 16, //colossal
+  none: 0, // No gap
+  xxs: 2, // Extra extra small
+  xs: 2, // Extra small
+  s: 4, // Small
+  m: 4, // Medium
+  l: 4, // Large
+  xl: 8, // Extra Large
+  xxl: 12, // Double Extra Large
+  xxxl: 12, // Triple Extra Large
+  huge: 12, // Huge
+  giant: 16, // Giant
+  massive: 16, // Massive
+  colossal: 16, // Colossal
 } as const
 
 export type TGapType = keyof typeof gapMap

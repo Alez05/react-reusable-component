@@ -1,4 +1,4 @@
-import { Aspect, Button, Global, Icon, Input, Text } from '@myorg/atom'
+import { Aspect, Box, Button, Icon, Input, Text } from '@myorg/atom'
 
 const LandingPage = () => {
   return (
@@ -15,13 +15,13 @@ const LandingPage = () => {
         <Button size="xs" radius="normal">
           Button1
         </Button>
-        <Button size="sm" radius="pill">
+        <Button size="s" radius="pill">
           Button2
         </Button>
-        <Button size="md" radius="normal">
+        <Button size="m" radius="normal">
           Button3
         </Button>
-        <Button size="lg" radius="pill">
+        <Button size="l" radius="pill">
           Button4
         </Button>
         <Button size="massive">Button5 no radius</Button>
@@ -41,9 +41,15 @@ const LandingPage = () => {
         <Text size="xl" weight="bold" color="lightGray" as="h4">
           ceva frumos
         </Text>
-        <Input name="cv" describedBy="cv">
+        <Input name="cv" describedBy="cv" as="h2">
           cv
         </Input>
+        <Box justify="space-between" vertical color="danger">
+          <Text as="h2">Ceva Frumos</Text>
+          <Text as="h2">Ceva Frumos</Text>
+          <Text as="h2">Ceva Frumos</Text>
+          <Text as="h2">Ceva Frumos</Text>
+        </Box>
       </Aspect>
     </div>
   )

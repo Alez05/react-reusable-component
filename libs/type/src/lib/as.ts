@@ -8,5 +8,7 @@ export const textAsList = [
   'span',
   'a',
 ] as const
+export const boxAs = ['div', 'main', 'span', 'section', 'aside', 'nav'] as const
 
 export type TTextAsType = (typeof textAsList)[number]
+export type TBoxAsType = (typeof boxAs)[number]
