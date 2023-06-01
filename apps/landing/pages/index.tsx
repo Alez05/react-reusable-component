@@ -41,7 +41,7 @@ const LandingPage = () => {
         <Text size="xl" weight="bold" color="lightGray" as="h4">
           ceva frumos
         </Text>
-        <Input name="cv" as="h2" describedby="cv">
+        <Input name="cv" describedBy="cv">
           cv
         </Input>
       </Aspect>
