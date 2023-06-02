@@ -1,4 +1,4 @@
-import { TWidthType, widthList } from '@myorg/type'
+import { TWidthType } from '@myorg/type'
 
 const whList = ['width', 'height']
 type whType = (typeof whList)[number]
