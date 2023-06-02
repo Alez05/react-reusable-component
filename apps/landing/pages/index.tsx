@@ -1,4 +1,4 @@
-import { Aspect, Box, Button, Icon, Input, Text } from '@myorg/atom'
+import { Aspect, Box, Button, Icon, Image, Input, Text } from '@myorg/atom'
 
 const LandingPage = () => {
   return (
@@ -49,6 +49,10 @@ const LandingPage = () => {
           <Text as="h2">Ceva Frumos</Text>
           <Text as="h2">Ceva Frumos</Text>
           <Text as="h2">Ceva Frumos</Text>
+          <Image
+            alt="ceva"
+            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Flandscapes&psig=AOvVaw0DFVfZDKgSFF7_3xZmc7_J&ust=1685806434903000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNiX_9f0pP8CFQAAAAAdAAAAABAR"
+          />
         </Box>
       </Aspect>
     </div>
