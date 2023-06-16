@@ -10,6 +10,7 @@ import {
 } from '@myorg/atom'
 
 const LandingPage = () => {
+  const ceva = 'https://picsum.photos/200/200'
   return (
     <div>
       <Aspect>
@@ -58,10 +59,7 @@ const LandingPage = () => {
           <Text as="h2">Ceva Frumos</Text>
           <Text as="h2">Ceva Frumos</Text>
           <Text as="h2">Ceva Frumos</Text>
-          <Image
-            alt="ceva"
-            src="https://images.unsplash.com/photo-1622837137197-4b7b0b0b0b0b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0Mnx8fGVufDB8fHx8&ixlib=rb-1.2.1"
-          />
+
         </Box>
       </Aspect>
     </div>
