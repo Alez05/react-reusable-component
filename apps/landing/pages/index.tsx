@@ -59,7 +59,7 @@ const LandingPage = () => {
           <Text as="h2">Ceva Frumos</Text>
           <Text as="h2">Ceva Frumos</Text>
           <Text as="h2">Ceva Frumos</Text>
-
+          <Image src={ceva} alt="ceva" />
         </Box>
       </Aspect>
     </div>
