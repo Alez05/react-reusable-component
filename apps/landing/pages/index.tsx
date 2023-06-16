@@ -1,4 +1,13 @@
-import { Aspect, Box, Button, Icon, Image, Input, Text } from '@myorg/atom'
+import {
+  Aspect,
+  Box,
+  Button,
+  Icon,
+  Image,
+  Input,
+  Modal,
+  Text,
+} from '@myorg/atom'
 
 const LandingPage = () => {
   const ceva = 'https://picsum.photos/200/200'
@@ -50,7 +59,7 @@ const LandingPage = () => {
           <Text as="h2">Ceva Frumos</Text>
           <Text as="h2">Ceva Frumos</Text>
           <Text as="h2">Ceva Frumos</Text>
-          <Image alt="ceva" src={ceva} />
+
         </Box>
       </Aspect>
     </div>
