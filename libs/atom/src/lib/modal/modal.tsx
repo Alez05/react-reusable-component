@@ -1,6 +1,6 @@
-import { useRef, MouseEvent, useEffect } from 'react'
-import { TModal } from './modal.type'
+import type { TModal } from './modal.type'
 import { SModal } from './modal.style'
+import { MouseEvent, useEffect, useRef } from 'react'
 
 export const Modal = ({ children, show, closeModal = () => {} }: TModal) => {
   const modalRef = useRef<HTMLDialogElement>(null)
