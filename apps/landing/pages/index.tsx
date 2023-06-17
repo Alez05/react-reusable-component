@@ -8,6 +8,7 @@ import {
   Modal,
   Text,
 } from '@myorg/atom'
+import { IconButton } from '@myorg/molecule'
 
 const LandingPage = () => {
   const ceva = 'https://picsum.photos/200/200'
@@ -54,6 +55,20 @@ const LandingPage = () => {
         <Input name="cv" describedBy="cv" as="h2">
           cv
         </Input>
+        <Button size="xs" radius="normal">
+          <IconButton
+            href="ceva"
+            icon="airplane"
+            title="gg"
+            color="background"
+          />
+        </Button>
+        <Button size="m" radius="normal">
+          <IconButton href="ceva" icon="earth" title="gg" color="background" />
+        </Button>
+        <Button size="huge" radius="normal">
+          <IconButton href="ceva" icon="fire" title="gg" color="background" />
+        </Button>
         <Box justify="space-between" vertical color="danger">
           <Text as="h2">Ceva Frumos</Text>
           <Text as="h2">Ceva Frumos</Text>
